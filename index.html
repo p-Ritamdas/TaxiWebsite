@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taxipark-Book your Taxi Now</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="background-container"></div>
+      <div class="nav">
+        <div class="navbar">
+          <img src="./images/logo-inner.png" alt="logo" />
+          <i class="fa-solid fa-bars" id="mobile-menu-toggle"></i>
+
+          <div class="navitems">
+            <!-- Desktop Dropdowns -->
+
+            <div class="dropdown">
+              <a href="#">HOME<i class="fa-solid fa-angle-right"></i></a>
+              <div class="dropdown-content">
+                <a href="#">Option 1</a>
+                <a href="#">Option 2</a>
+                <a href="#">Option 3</a>
+              </div>
+            </div>
+
+            <a href="#">GET TAXI</a>
+
+            <a href="#">SERVICES</a>
+
+            <div class="dropdown">
+              <a href="#">OUR BLOG<i class="fa-solid fa-angle-right"></i></a>
+              <div class="dropdown-content">
+                <a href="#">Option 1</a>
+                <a href="#">Option 2</a>
+                <a href="#">Option 3</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <a href="#">GALLERY<i class="fa-solid fa-angle-right"></i></a>
+              <div class="dropdown-content">
+                <a href="#">Option 1</a>
+                <a href="#">Option 2</a>
+                <a href="#">Option 3</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <a href="#">SHOP<i class="fa-solid fa-angle-right"></i></a>
+              <div class="dropdown-content">
+                <a href="#">Option 1</a>
+                <a href="#">Option 2</a>
+                <a href="#">Option 3</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <a href="#">CONTACTS<i class="fa-solid fa-angle-right"></i></a>
+              <div class="dropdown-content">
+                <a href="#">Option 1</a>
+                <a href="#">Option 2</a>
+                <a href="#">Option 3</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <a href="#">PAGES<i class="fa-solid fa-angle-right"></i></a>
+              <div class="dropdown-content">
+                <a href="#">Option 1</a>
+                <a href="#">Option 2</a>
+                <a href="#">Option 3</a>
+              </div>
+            </div>
+
+            <i class="fa-solid fa-cart-shopping shoppingicon"></i>
+          </div>
+        </div>
+
+        <div class="mobile-dropdown-container">
+          <div class="mobile-dropdown" id="mobile-home-dropdown">
+            <a href="#">Home<i class="fa-solid fa-caret-right"></i></a>
+            <div class="mobile-dropdown-content">
+              <a href="#">Option 1</a>
+              <a href="#">Option 2</a>
+              <a href="#">Option 3</a>
+            </div>
+          </div>
+
+          <div class="mobile-dropdown" id="mobile-get-taxi-dropdown">
+            <a href="#">Get Taxi</a>
+          </div>
+
+          <div class="mobile-dropdown" id="mobile-services-dropdown">
+            <a href="#">Services</a>
+          </div>
+
+          <div class="mobile-dropdown" id="mobile-blog-dropdown">
+            <a href="#">Our Blog<i class="fa-solid fa-caret-right"></i></a>
+            <div class="mobile-dropdown-content">
+              <a href="#">Option 1</a>
+              <a href="#">Option 2</a>
+              <a href="#">Option 3</a>
+            </div>
+          </div>
+
+          <div class="mobile-dropdown" id="mobile-gallery-dropdown">
+            <a href="#">Gallery<i class="fa-solid fa-caret-right"></i></a>
+            <div class="mobile-dropdown-content">
+              <a href="#">Option 1</a>
+              <a href="#">Option 2</a>
+              <a href="#">Option 3</a>
+            </div>
+          </div>
+
+          <div class="mobile-dropdown" id="mobile-shop-dropdown">
+            <a href="#">Shop<i class="fa-solid fa-caret-right"></i></a>
+            <div class="mobile-dropdown-content">
+              <a href="#">Option 1</a>
+              <a href="#">Option 2</a>
+              <a href="#">Option 3</a>
+            </div>
+          </div>
+
+          <div class="mobile-dropdown" id="mobile-contacts-dropdown">
+            <a href="#">Contacts<i class="fa-solid fa-caret-right"></i></a>
+            <div class="mobile-dropdown-content">
+              <a href="#">Option 1</a>
+              <a href="#">Option 2</a>
+              <a href="#">Option 3</a>
+            </div>
+          </div>
+
+          <div class="mobile-dropdown" id="mobile-pages-dropdown">
+            <a href="#">Pages<i class="fa-solid fa-caret-right"></i></a>
+            <div class="mobile-dropdown-content">
+              <a href="#">Option 1</a>
+              <a href="#">Option 2</a>
+              <a href="#">Option 3</a>
+            </div>
+          </div>
+
+          <i class="fa-solid fa-cart-shopping shoppingicon"></i>
+        </div>
+      </div>
+
+      <div class="taxiform">
+        <h1>GET TAXI <span>ONLINE</span></h1>
+
+        <div class="formcaricons">
+          <a href="#"
+            ><img src="images/icon-car-1.png" alt="carimage1" />STANDART</a
+          >
+
+          <a href="#"
+            ><img src="images/icon-car-2.png" alt="carimage2" />Business</a
+          >
+
+          <a href="#"><img src="images/icon-car-3.png" alt="carimage3" />VIP</a>
+
+          <a href="#"
+            ><img src="images/icon-car-4.png" alt="carimage4" />Bus-Minivan</a
+          >
+        </div>
+
+        <form class="bookingform" method="post">
+          <input
+            type="text"
+            id="adressfrom"
+            name="adressfrom"
+            placeholder="From Address"
+            required
+          />
+
+          <input
+            type="text"
+            id="adressto"
+            name="adressto"
+            placeholder="To..."
+            required
+          />
+
+          <input
+            type="number"
+            id="phone"
+            name="phone number"
+            placeholder="Phone Number"
+            required
+          />
+
+          <input
+            type="datetime"
+            id="datetime"
+            name="datetime"
+            placeholder="Date and Time"
+            required
+          />
+
+          <button type="submit">GET TAXI</button>
+        </form>
+      </div>
+
+      <div class="contact">
+        <a href="#"><i class="fa-solid fa-phone-flip"></i>800-5-800</a>
+        <a href="#"><i class="fa-brands fa-skype"></i>Gettaxipark</a>
+        <a href="#"
+          ><i class="fa-solid fa-location-dot"></i>43 2-ND AVENUE, NEW YORK,
+          29004-7153</a
+        >
+        <button>OUR TARIFFS</button>
+      </div>
+    </div>
+
+    <div class="body">
+      <div class="services">
+        <h2>WELCOME</h2>
+
+        <h1>OUR SERVICES</h1>
+
+        <div class="images">
+          <div class="image">
+            <img src="./images/services-1.png" alt="img1" />
+            <h3>RAPID CITY TRANSFER</h3>
+            <p>
+              We will bring you quickly and comfortably to anywhere in your city
+            </p>
+          </div>
+
+          <div class="image">
+            <img src="./images/services-2.png" alt="img2" />
+            <h3>BOOKING A HOTEL</h3>
+            <p>
+              If you need a comfortable hotel, our operators will book it for
+              you, and take a taxi to the address
+            </p>
+          </div>
+
+          <div class="image">
+            <img src="./images/services-3.png" alt="img3" />
+            <h3>AIRPORT TRANSFER</h3>
+            <p>
+              We will bring you quickly and comfortably to anywhere in your city
+            </p>
+          </div>
+
+          <div class="image">
+            <img src="./images/services-4.png" alt="img4" />
+            <h3>BAGGAGE TRANSPORT</h3>
+            <p>
+              If you need a comfortable hotel, our operators will book it for
+              you, and take a taxi to the address
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vehicles">
+        <h2>SEE OUR</h2>
+
+        <h1>TARIFFS</h1>
+
+        <div class="cars">
+          <div class="car">
+            <img src="./images/tariff-1.png" alt="car1" />
+
+            <h3>STANDART</h3>
+
+            <p>
+              Standard sedan for a drive around the city at your service
+            </p>
+
+            <div class="price">$2<span> /km </span></div>
+          </div>
+
+          <div class="car">
+            <img src="./images/tariff-2.png" alt="car2" />
+
+            <h3>BUSINESS</h3>
+
+            <p>
+              Standard sedan for a drive around the city at your service
+            </p>
+
+            <div class="price">$2,7<span> /km </span></div>
+          </div>
+
+          <div class="car">
+            <img src="./images/tariff-3.png" alt="car3" />
+
+            <h3>VIP</h3>
+            <p>
+              Standard sedan for a drive around the city at your service.
+            </p>
+
+            <div class="price">$5<span> /km </span></div>
+          </div>
+
+          <div class="car">
+            <img src="./images/tariff-4.png" alt="car4" />
+
+            <h3>BUS-MINIVAN</h3>
+            <p>
+              Standard sedan for a drive around the city at your service
+            </p>
+
+            <div class="price">$4.5<span> /km </span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="benefits">
+        <h2>GET MORE BENEFITS</h2>
+
+        <h1>DOWNLOAD THE APP</h1>
+
+        <div class="texts">
+          <div class="section">
+            <div class="text">
+              <div class="heading">
+                <h5>01.</h5>
+                <h3>FAST BOOKING</h3>
+              </div>
+
+              <p>
+                Nam ac ligula congue, interdum enim sit amet, fermentum nisi.
+              </p>
+            </div>
+
+            <div class="text">
+              <div class="heading">
+                <h5>02.</h5>
+                <h3>EASY TO USE</h3>
+              </div>
+
+              <p>
+                Orci varius natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus.
+              </p>
+            </div>
+          </div>
+
+          <div class="images">
+            <img src="images/mobile.png" alt="mobile" />
+
+            <div class="topimages">
+              <img src="images/app-google-150x50.png" alt="mobile" />
+              <img src="images/app-apple-150x53.png" alt="mobile" />
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="text">
+              <div class="heading">
+                <h3>GPS SEARCHING</h3>
+                <h5>03.</h5>
+              </div>
+
+              <p>
+                Ut elementum tincidunt erat vel ornare. Suspendisse ac felis non
+                diam pretium.
+              </p>
+            </div>
+
+            <div class="text">
+              <div class="heading">
+                <h3>BONUSES FOR RIDE</h3>
+                <h5>04.</h5>
+              </div>
+
+              <p>
+                Phasellus l et porta tortor dignissim at. Pellentesque gravida
+                tortor at euismod mollis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="becomeadriver">
+        <h2>FOR DRIVERS</h2>
+
+        <h1>DO YOU WANT TO EARN WITH US?</h1>
+
+        <p>
+          Quisque sollicitudin feugiat risus, eu posuere ex euismod eu.
+          Phasellus hendrerit, massa efficitur dapibus pulvinar, sapien eros
+          sodales ante, euismod aliquet nulla metus a mauris.
+        </p>
+
+        <ul>
+          <li><i class="fa-solid fa-check"></i>Luxury cars</li>
+
+          <li><i class="fa-solid fa-check"></i>No fee</li>
+
+          <li><i class="fa-solid fa-check"></i>Weekly payment</li>
+
+          <li><i class="fa-solid fa-check"></i>Fixed price</li>
+
+          <li><i class="fa-solid fa-check"></i>Good application</li>
+
+          <li><i class="fa-solid fa-check"></i>Stable orders</li>
+        </ul>
+
+        <button>BECOME A DRIVER</button>
+      </div>
+
+      <div class="testimonicals">
+        <div class="border"></div>
+
+        <h2>HAPPY CLIENT'S</h2>
+
+        <h1>TESTIMONIALS</h1>
+
+        <div class="owl-carousel">
+          <div class="item">
+            <p>
+              Nullam orci dui, dictum et magna sollicitudin, tempor blandit
+              erat. Maecenas suscipit tellus sit amet augue placerat fringilla a
+              id lacus. Fusce tincidunt in leo lacinia condimentum. Maecenas
+              suscipit tellus sit amet augue placerat fringilla a id lacus.
+            </p>
+            <i class="fa-solid fa-quote-left"></i>
+            <h3>ANASTASIA STONE</h3>
+            <div class="image">
+              <img src="./images/client-1.jpg" alt="client1" />
+            </div>
+          </div>
+
+          <div class="item">
+            <p>
+              Nullam orci dui, dictum et magna sollicitudin, tempor blandit
+              erat. Maecenas suscipit tellus sit amet augue placerat fringilla a
+              id lacus. Fusce tincidunt in leo lacinia condimentum. Maecenas
+              suscipit tellus sit amet augue placerat fringilla a id lacus.
+            </p>
+            <i class="fa-solid fa-quote-left"></i>
+            <h3>ANASTASIA STONE</h3>
+            <div class="image">
+              <img src="./images/client-1.jpg" alt="client1" />
+            </div>
+          </div>
+
+          <div class="item">
+            <p>
+              Nullam orci dui, dictum et magna sollicitudin, tempor blandit
+              erat. Maecenas suscipit tellus sit amet augue placerat fringilla a
+              id lacus. Fusce tincidunt in leo lacinia condimentum. Maecenas
+              suscipit tellus sit amet augue placerat fringilla a id lacus.
+            </p>
+            <i class="fa-solid fa-quote-left"></i>
+            <h3>ANASTASIA STONE</h3>
+            <div class="image">
+              <img src="./images/client-1.jpg" alt="client1" />
+            </div>
+          </div>
+
+          <!-- Add more items as needed -->
+        </div>
+
+        <div class="owl-nav">
+          <i onclick="prevSlide()" class="fa-solid fa-caret-left"></i>
+          <i onclick="nextSlide()" class="fa-solid fa-caret-right"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="bannersection">
+        <img src="images/banner-1-4.png" alt="banner1" />
+        <img src="images/banner-2-2.png" alt="banner2" />
+      </div>
+
+      <div class="partners">
+        <div class="text">
+          <h2>OUR PARTNERS</h2>
+
+          <h1>AND CLIENTS</h1>
+        </div>
+
+        <div class="partnersphotos">
+          <img src="images/partner-2.png" alt="partner1" />
+          <img src="images/partner-1.png" alt="partner2" />
+          <img src="images/partner-3.png" alt="partner3" />
+          <img src="images/partner-5.png" alt="partner4" />
+        </div>
+      </div>
+
+      <div class="footersection">
+        <section class="aboutus">
+          <h2>ABOUT US</h2>
+          <p>
+            Nullam orci dui, dictum et magna sollicitudin, tempor blandit erat.
+            Maecenas suscipit tellus sit amet augue placerat fringilla a id
+            lacus. Fusce tincidunt in leo lacinia condimentum.
+          </p>
+        </section>
+
+        <section class="explore">
+          <h2>EXPLORE</h2>
+          <ul>
+            <li>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Gallery</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Contacts</a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-angle-right"></i>Testimonials</a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Blog</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Services</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Get Taxi</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-angle-right"></i>Shortcodes</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="contactus">
+          <h2>Contact Us</h2>
+          <p>Address: 43 2-nd Avenue, New York, NY 29004-7153</p>
+        </section>
+      </div>
+
+      <div class="footerblock">
+        <p>2023 &copy; All Rights Reserved</p>
+      </div>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="script.js"></script>
+</html>
